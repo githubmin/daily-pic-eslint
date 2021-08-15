@@ -1,0 +1,37 @@
+{
+  "name": "daily-pic",
+  "version": "0.0.1",
+  "description": "daily picture showed in the terminal",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "format": "prettier src/ --write",
+    "lint": "eslint src/ --fix",
+    "fix": "npm run format && npm run lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "got": "^11.8.2",
+    "terminal-image": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
+  }
+}
