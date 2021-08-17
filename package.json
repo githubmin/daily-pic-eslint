@@ -9,6 +9,7 @@
     "node": ">=12"
   },
   "scripts": {
+    "start": "node src/index.js",
     "format": "prettier src/ --write",
     "lint": "eslint src/ --fix",
     "fix": "npm run format && npm run lint",
