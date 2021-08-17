@@ -1,4 +1,4 @@
-# daily-pic
+# daily-pic-eslint
 
 A demo nodejs project to demostraste how to setup a project with eslint & prettier(husky & lint-staged support).
 

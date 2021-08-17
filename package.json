@@ -1,5 +1,5 @@
 {
-  "name": "daily-pic",
+  "name": "daily-pic-eslint",
   "version": "0.0.1",
   "description": "daily picture showed in the terminal",
   "main": "src/index.js",
